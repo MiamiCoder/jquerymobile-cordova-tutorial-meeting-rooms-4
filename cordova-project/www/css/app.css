@@ -1,0 +1,68 @@
+﻿body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+h1,h2,h3,h4,h5 {
+    color:#0071bc;
+}
+
+/* Begin jqm overrides */
+.ui-btn-icon-notext.ui-corner-all {
+    -webkit-border-radius: .3125em;
+    border-radius: .3125em;
+}
+.ui-title {
+    color:#fff;
+}
+.ui-listview>.ui-li-divider {
+    border-top-color:#ccc;
+}
+/* End jqm overrides */
+
+.bi-text-center {
+    text-align:center;
+}
+.bi-top-margin-1-5 {
+    margin-top:1.5em;
+}
+h2.bi-text-danger,
+h3.bi-text-danger  {
+    color:red;
+}
+
+.bi-invalid-input {
+    background-color:#fffacd!important;
+}
+
+.bi-invisible {
+    display:none;
+}
+
+.bi-ctn-err {
+    background-color:#ffe1cd;
+    padding:0 .5em;
+    margin-bottom:.5em;
+    border: 1px solid #e9cfbd;
+    border-radius:3px 3px;
+}
+
+.bi-header {
+    border: 0px; position: fixed; width: 100%; top: 0px; left: 0px; z-index: 21;
+}
+
+.bi-list-item-primary {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.bi-list-item-secondary {
+    color:#662d91;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
